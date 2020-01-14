@@ -1,0 +1,15 @@
+@import "~bootstrap";
+
+// for router animation
+router-outlet ~ * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+// To the top
+.to-top {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
